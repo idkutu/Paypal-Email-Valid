@@ -1,6 +1,6 @@
 # Paypal-Email-Valid
 
-Combo EMAIL
+Combolist EMAIL:PASSWORD
 
 Used :
 
