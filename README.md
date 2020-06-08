@@ -17,4 +17,7 @@ root$ php check.php
             Save to dir (default: valid): (somefoldername)
             Request email per second (*max 10) ? 5
             Delete list per check? (y/n): n/y
+            
+
+
 You can visit the https://toolsb0x.com for get the api More information on https://www.youtube.com/channel/UCTZIVXU37iUuziCEsJIwEsw
