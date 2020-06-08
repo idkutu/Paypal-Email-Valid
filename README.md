@@ -6,7 +6,7 @@ EMAIL:PASSWORD
 
 Used :
 
-root$ php check.php
+root$ php paypal.php
 
      _______________________________________________________
     |                                                       |
