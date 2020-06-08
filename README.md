@@ -1,9 +1,13 @@
 # Paypal-Email-Valid
 
 
+Combolist
+EMAIL:PASSWORD
+
 Used :
 
-root $ php vyper.php 
+root$ php check.php
+
      _______________________________________________________
     |                                                       |
     |                Multi eMail Checker v1                 |
@@ -11,12 +15,13 @@ root $ php vyper.php
     |      Author: Toolsb0x (https://toolsb0x.com/)         |
     |_______________________________________________________|
                 
+                Enter list: list.txt
+                Save to dir (default: valid): (somefoldername)
+                Request email per second (*max 10) ? 5
+                Delete list per check? (y/n): n/y
+ 
+ 
 
-
- Enter list: paypal.txt
- Save to dir (default: valid): paypal
- Request email per second (*max 10) ? 5
- Delete list per check? (y/n): n
-
-
-You can visit the https://toolsb0x.com for get the api More information on https://www.youtube.com/channel/UCTZIVXU37iUuziCEsJIwEsw
+You can visit the https://toolsb0x.com for get the api
+More information on
+https://www.youtube.com/channel/UCTZIVXU37iUuziCEsJIwEsw
