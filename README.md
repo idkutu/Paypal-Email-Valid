@@ -1,6 +1,6 @@
 # Paypal-Email-Valid
 
-Leads EMAIL
+Combo EMAIL
 
 Used :
 
