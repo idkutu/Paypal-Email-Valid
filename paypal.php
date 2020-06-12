@@ -76,12 +76,12 @@ $rollingCurl->setCallback(function(\RollingCurl\Request $request, \RollingCurl\R
     $x = $request->getResponseText();
     $deletelist = 1;
     echo " [".date("H:i:s")." ".$no."/".$total." from ".$listname."]";
-    if(preg_match("#login_failed#", $x)) {
+    if(preg_match("#die#", $x)) {
         $dead++;
         $contentx = getStr($x,'"email":"','"}');
         file_put_contents("dead.txt", $contentx.PHP_EOL, FILE_APPEND);
         echo color()["LR"]."DEAD".color()["WH"]." => ".$contentx." [Toolsb0x]".date("H:i:s");
-    }elseif(preg_match("#login_sukses#", $x)) {
+    }elseif(preg_match("#live#", $x)) {
         $live++;
         $contentx = getStr($x,'"email":"','"}');
         file_put_contents("live.txt", $contentx.PHP_EOL, FILE_APPEND);
