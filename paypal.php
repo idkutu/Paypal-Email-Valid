@@ -10,7 +10,7 @@ require_once "RollingCurl/Request.php";
 /////////////////input here///////////////////
 $token ="tokenhere"; // insert your token here
 $wallet="wallethere"; // insert your wallet here
-$urlapi = "http://api.toolsb0x.com/api/paypal.php"; ////change url api from sh
+$urlapi = "http://api.toolsb0x.com/api/paypal-valid.php"; ////change url api from sh
 /////////////////////////////////////////////
 
 echo banner();
